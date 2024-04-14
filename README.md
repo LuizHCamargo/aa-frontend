@@ -1,2 +1,5 @@
 # Atividade Ativa - Construção de Frontend
-Desenvolvida por Luiz Henrique Camargo
+
+Para acessar: https://luizhcamargo.github.io/aa-frontend/src/
+
+Desenvolvida por Luiz Henrique Camargo (2286101749)
