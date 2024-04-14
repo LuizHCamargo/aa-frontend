@@ -1,0 +1,58 @@
+#navbar {
+    padding: 10px;
+    background-color: #fffaef;
+    box-shadow: 0px 5px 10px #00000010;
+}
+#navbar h1 {
+    letter-spacing: -0.05em;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('../img/mancha.png') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top -200px right -500px;
+    background-color: #fff2d2;
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+    margin-top: -100px;
+}
+
+section {
+    min-height:30vh;
+    padding: 30px;
+}
+
+#topo {
+    background-image: linear-gradient(to bottom, #fff2d200 60%, #fff2d2ff 100%), url('../img/topo.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, bottom;
+    background-size: cover, cover;
+    min-height: 60vh;
+}
+
+.background1 {
+    background-color: #fffcf7dd;
+}
+
+.background2 {
+    background-color: #f9f4ebdd;
+}
+
+.btn-brown {
+    background-color: #816548; 
+    color: #fefefe
+}
+
+.btn-brown:hover {
+    background-color: #8e704f; 
+    color: #fefefe
+}
+
+footer {
+    background-color: #fffaef;
+    padding: 20px 50px 20px 50px;
+}
