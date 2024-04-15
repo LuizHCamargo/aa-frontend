@@ -8,7 +8,6 @@ function loadPage(path, domId) {
     })
 }
 
-
 $(document).ready(function() {
     loadPage('home', 'container'); 
     
@@ -19,12 +18,13 @@ $(document).ready(function() {
         }
         
     });
+
+    $('#form_contato').on('submit', function(event) {
+        alert('Mensagem enviada!');
+        $('#form_contato input').val('');
+        $('#form_contato textarea').val('');
+        event.preventDefault();
+    });
     
 });
 
-$('#form_contato').on('submit', function(event) {
-    alert('Mensagem enviada!');
-    $('#form_contato input').val('');
-    $('#form_contato textarea').val('');
-    event.preventDefault();
-});
